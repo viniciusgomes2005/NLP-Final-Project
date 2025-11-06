@@ -1,0 +1,15 @@
+{
+  "best_threshold": 0.62,
+  "val_macro_f1_at_best_t": 0.6933677863910421,
+  "pos_label": "por_bully",
+  "neg_label": "por_nonbully",
+  "params": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 1,
+    "max_df": 0.95,
+    "C": 2.0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "best_threshold": 0.14,
+  "val_macro_f1_at_best_t": 0.7082923631596199,
+  "params": {
+    "char_ng": [
+      3,
+      6
+    ],
+    "min_df": 1,
+    "alpha": 0.5,
+    "recall_floor": 0.6
+  }
+}

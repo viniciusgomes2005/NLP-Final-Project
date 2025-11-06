@@ -1,0 +1,7 @@
+name,vocab_size,embedding_dim,max_len,epochs,model_type,acc_train,acc_test,f1_train,f1_test,loss_plot,emb_train_plot,emb_test_plot
+vocab_2k,2000,32,100,25,mean,0.9835,0.703,0.9834999628749165,0.702999702999703,outputs/figs/vocab_2k_loss.png,outputs/figs/vocab_2k_emb_train.png,outputs/figs/vocab_2k_emb_test.png
+vocab_8k,8000,32,100,25,mean,1.0,0.706,1.0,0.7059705970597059,outputs/figs/vocab_8k_loss.png,outputs/figs/vocab_8k_emb_train.png,outputs/figs/vocab_8k_emb_test.png
+data_1k,4000,32,100,25,mean,1.0,0.66625,1.0,0.6662453065746237,outputs/figs/data_1k_loss.png,outputs/figs/data_1k_emb_train.png,outputs/figs/data_1k_emb_test.png
+data_3k,4000,32,100,25,mean,1.0,0.703,1.0,0.7029640586510968,outputs/figs/data_3k_loss.png,outputs/figs/data_3k_emb_train.png,outputs/figs/data_3k_emb_test.png
+emb_16,4000,16,100,25,mean,0.9985,0.725,0.9984999996249999,0.7249931248281207,outputs/figs/emb_16_loss.png,outputs/figs/emb_16_emb_train.png,outputs/figs/emb_16_emb_test.png
+emb_64,4000,64,100,25,mean,1.0,0.7,1.0,0.6996924851047472,outputs/figs/emb_64_loss.png,outputs/figs/emb_64_emb_train.png,outputs/figs/emb_64_emb_test.png

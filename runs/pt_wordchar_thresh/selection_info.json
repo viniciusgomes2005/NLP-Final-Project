@@ -1,0 +1,14 @@
+{
+  "best_threshold": 0.59,
+  "val_macro_f1_at_best_t": 0.7166375461075519,
+  "params": {
+    "word_min_df": 1,
+    "word_max_df": 0.95,
+    "char_min_df": 2,
+    "char_ng": [
+      3,
+      6
+    ],
+    "C": 2.0
+  }
+}

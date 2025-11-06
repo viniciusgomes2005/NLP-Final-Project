@@ -1,0 +1,35 @@
+{
+  "best_threshold": 0.41000000000000003,
+  "val_macro_f1_at_best_t": 0.6878588866348039,
+  "val_per_class_stats_at_best_t": {
+    "precision": [
+      0.8317757009345794,
+      0.5352112676056338
+    ],
+    "recall": [
+      0.7295081967213115,
+      0.6785714285714286
+    ],
+    "f1": [
+      0.777292576419214,
+      0.5984251968503937
+    ],
+    "support": [
+      122,
+      56
+    ]
+  },
+  "params": {
+    "word_min_df": 1,
+    "word_max_df": 0.9,
+    "char_min_df": 1,
+    "char_ng": [
+      3,
+      7
+    ],
+    "C": 3.0,
+    "oversample": false,
+    "recall_floor": 0.6,
+    "dedup_train": true
+  }
+}
